@@ -12,6 +12,7 @@ import Main from "./pages/Main/Main";
 // import WistList from "./pages/WishList/Wistlist";
 
 function App() {
+    console.log("App");
     return (
         <div className="bg-white w-screen h-full overflow-x-hidden">
             <Routes>
@@ -24,6 +25,7 @@ function App() {
                 <Route path="/profile" element={<Profile />} />
                 <Route path="/cart" element={<Cart />} />
                 <Route path="/wishlist" element={<WistList />} /> */}
+            
             </Routes>
         </div>
     );
